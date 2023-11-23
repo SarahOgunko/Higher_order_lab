@@ -13,7 +13,7 @@ ScranAdvisor.prototype.findByName = function(name){
     return this.restaurants.find(restaurants => restaurants.name === name)
 }
 
-ScranAdvisor.prototype.findAllRestraunts = function(name){
+ScranAdvisor.prototype.findAllRestraunts = function(){
     return this.restaurants.map(restaurant => restaurant.name )
     
 }
